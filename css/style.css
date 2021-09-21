@@ -77,6 +77,14 @@ a {
   font-weight: 100;
   font-size: 12px;
   cursor: pointer; }
+  .data .expenses-item-btn:hover, .data .optionalexpenses-btn:hover, .data .count-budget-btn:hover {
+    background-image: none;
+    background: #fff;
+    color: #000;
+    border: 3px solid #fff;
+    border-image: linear-gradient(336deg, #ffbd75, #ff964b);
+    border-image-slice: 1;
+    transition: all 0.2s ease-out; }
 
 .data .optionalexpenses-item {
   width: calc((100%/3) - 4px); }
@@ -115,9 +123,17 @@ a {
   cursor: pointer;
   width: 200px;
   height: 45px;
-  margin-top: 30px;
+  margin-bottom: 30px;
   font-size: 18px;
   font-weight: 100; }
+  .data .start:hover {
+    background-image: none;
+    background: #fff;
+    color: #000;
+    border: 3px solid #fff;
+    border-image: linear-gradient(336deg, #ffbd75, #ff964b);
+    border-image-slice: 1;
+    transition: all 0.2s ease-out; }
 
 .result {
   width: 50%; }
